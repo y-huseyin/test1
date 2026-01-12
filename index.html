@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital E-Magazine - Premium Publication</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="magazine-container">
+        <!-- Navigation Header -->
+        <header class="magazine-header">
+            <div class="header-content">
+                <h1 class="logo">PRESTIGE</h1>
+                <p class="tagline">Digital Magazine Experience</p>
+            </div>
+            <nav class="header-nav">
+                <button class="nav-btn" id="prevBtn" title="Previous">
+                    <span class="icon">‹</span>
+                </button>
+                <span class="page-counter"><span id="currentPage">1</span> / <span id="totalPages">8</span></span>
+                <button class="nav-btn" id="nextBtn" title="Next">
+                    <span class="icon">›</span>
+                </button>
+            </nav>
+        </header>
+
+        <!-- Main Content Area -->
+        <main class="magazine-main">
+            <!-- Double-Page Spread -->
+            <div class="page-spread">
+                <!-- Left Page -->
+                <div class="page left-page" id="page1">
+                    <div class="page-content">
+                        <div class="cover-section">
+                            <img src="https://images.unsplash.com/photo-1633356122544-f134324ef6db?w=400&h=600&fit=crop" alt="Magazine Cover" class="cover-image">
+                            <div class="cover-text">
+                                <h2>The Digital Revolution</h2>
+                                <p>Exploring Modern Design & Innovation</p>
+                                <span class="issue">Issue #1 - January 2026</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Page -->
+                <div class="page right-page" id="page2">
+                    <div class="page-content">
+                        <h3 class="section-title">Welcome</h3>
+                        <p class="section-text">
+                            Step into the future of digital publishing. This premium e-magazine brings together stunning visuals, 
+                            engaging content, and interactive multimedia experiences.
+                        </p>
+                        <div class="feature-box">
+                            <h4>Featured Stories</h4>
+                            <ul class="feature-list">
+                                <li>Modern Design Trends</li>
+                                <li>Digital Innovation</li>
+                                <li>Creative Excellence</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Page 2: Image Gallery -->
+            <div class="page-spread">
+                <div class="page left-page" id="page3">
+                    <div class="page-content">
+                        <h3 class="section-title">Visual Gallery</h3>
+                        <div class="gallery-item">
+                            <img src="https://images.unsplash.com/photo-1557821552-17105176677c?w=400&h=300&fit=crop" alt="Gallery 1" class="gallery-image">
+                            <p class="caption">Contemporary Design</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="page right-page" id="page4">
+                    <div class="page-content">
+                        <h3 class="section-title">Multimedia Stories</h3>
+                        <div class="gallery-item">
+                            <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=400&h=300&fit=crop" alt="Gallery 2" class="gallery-image">
+                            <p class="caption">Digital Innovation</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Page 3: Content with Audio -->
+            <div class="page-spread">
+                <div class="page left-page" id="page5">
+                    <div class="page-content">
+                        <h3 class="section-title">Audio Article</h3>
+                        <p class="article-text">
+                            Experience our curated collection of stories, available with premium audio narration. 
+                            Listen as our professional voices bring these articles to life with perfect pacing and emotion.
+                        </p>
+                        <div class="audio-player">
+                            <button class="play-btn" id="audioPlayBtn" title="Play Audio">
+                                <span class="play-icon">▶</span>
+                            </button>
+                            <div class="audio-info">
+                                <p class="audio-title">Featured Story Narration</p>
+                                <p class="audio-duration">Duration: 5:32</p>
+                            </div>
+                        </div>
+                        <audio id="audioPlayer" src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"></audio>
+                    </div>
+                </div>
+
+                <div class="page right-page" id="page6">
+                    <div class="page-content">
+                        <h3 class="section-title">Interactive Experience</h3>
+                        <p class="article-text">
+                            This digital magazine combines the elegance of print with the power of interactive media. 
+                            Navigate through pages using intuitive controls and discover rich multimedia content at every turn.
+                        </p>
+                        <div class="stats-grid">
+                            <div class="stat-card">
+                                <span class="stat-number">1000+</span>
+                                <span class="stat-label">Pages</span>
+                            </div>
+                            <div class="stat-card">
+                                <span class="stat-number">50+</span>
+                                <span class="stat-label">Stories</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Page 4: Advanced Gallery -->
+            <div class="page-spread">
+                <div class="page left-page" id="page7">
+                    <div class="page-content">
+                        <h3 class="section-title">Image Collection</h3>
+                        <div class="image-grid">
+                            <div class="grid-item">
+                                <img src="https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?w=300&h=200&fit=crop" alt="Image 1" class="grid-image">
+                            </div>
+                            <div class="grid-item">
+                                <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=300&h=200&fit=crop" alt="Image 2" class="grid-image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="page right-page" id="page8">
+                    <div class="page-content">
+                        <h3 class="section-title">Premium Content</h3>
+                        <p class="closing-text">
+                            Thank you for exploring this digital magazine experience. We've crafted every page with attention to detail, 
+                            combining beautiful design with engaging content.
+                        </p>
+                        <div class="contact-section">
+                            <h4>Stay Connected</h4>
+                            <p class="contact-info">Visit us at: www.prestigious-magazine.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="magazine-footer">
+            <p>&copy; 2026 Prestige Magazine. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <a href="#">Subscribe</a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
